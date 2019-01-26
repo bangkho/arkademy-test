@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container mt-25">
-            <div class="row">
+            <div class="row main">
                 <h1>Stock Category Product</h1>
                     <table class="table table-striped table-hover mt-25">
                         <thead>
