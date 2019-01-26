@@ -15,8 +15,11 @@ public class Soal5 {
                     count += 1;
                 }
             }
-            System.out.println("Pada " + in + " terdapat: " + count + " karakter \"" + a + "\"");
-//            System.out.println(count);
+            if (count > 0) {
+                System.out.println("Pada " + in + " terdapat: " + count + " karakter \"" + a + "\"");
+            } else {
+                System.out.println("Tidak ditemukan karakter yang sama dengan " + a);
+            }
         }
     }
 
