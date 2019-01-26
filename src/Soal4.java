@@ -11,7 +11,7 @@ public class Soal4 {
             for (int i = 1; i < n; i++) {
                 sum += i;
             }
-            System.out.println("Jumlah jabat tangan: " + sum);
+            System.out.println(n + " Orang, Jumlah jabat tangan: " + sum);
         } else {
             System.out.println("Nilai harus lebih dari 0");
         }
