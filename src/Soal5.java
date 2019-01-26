@@ -7,11 +7,10 @@ public class Soal5 {
 
     private static void CountChar(String in, String a) {
         if (in != "" && a != "") {
-            char[] aArr = a.toCharArray();
             int count = 0;
 
             for (char c : in.toCharArray()) {
-                if (c == aArr[0]) {
+                if (c == a.charAt(0)) {
                     count += 1;
                 }
             }
@@ -22,5 +21,4 @@ public class Soal5 {
             }
         }
     }
-
 }
