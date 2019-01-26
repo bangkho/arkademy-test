@@ -1,5 +1,6 @@
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +9,7 @@ public class Soal1 {
     public static void main(String[] args) {
         Product product = TShirt();
 
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
         String json = gson.toJson(product);
         System.out.println(json);
